@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Edu+SA+Beginner:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  display: grid;
+  place-content: center;
+}
+.clock {
+  width: 450px;
+  height: 220px;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+}
+.hours {
+  width: 30%;
+  height: 80%;
+  background-color: rgb(165, 200, 230);
+  border-radius: 7px;
+  display: grid;
+  place-content: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.minutes {
+  width: 30%;
+  height: 80%;
+  background-color: rgb(165, 200, 230);
+  border-radius: 7px;
+  display: grid;
+  place-content: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.seconds {
+  width: 30%;
+  height: 80%;
+  background-color: rgb(165, 200, 230);
+  border-radius: 7px;
+  display: grid;
+  place-content: center;
+  background:crimson;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: white;
+}
+span {
+  font-size: 55px;
+  font-family: "Acme", sans-serif;
+  font-family: "Edu SA Beginner", cursive;
+  text-shadow: -4px -2px 0px rgba(128, 0, 0, 0.83);
+}
+h4 {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
